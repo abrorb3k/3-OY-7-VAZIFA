@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-image{
+    margin: 70px auto;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1240px;
+    width: 100%;
+}
+h2{
+    font-family: "Exo 2",sans-serif;
+font-size: 48px;
+font-weight: 600;
+color: #363738;
+padding-bottom: 32px;
+}
+.sobral{
+    width: 460px;
+    font-family: "PT Sans",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+padding-bottom: 56px;
+color: #6B6B6C;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.box{
+width: 393px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #CCC ;
+}
+.card-text{
+    padding: 24px 32px;
+}
+h4{
+    font-family: "Exo 2",sans-serif;
+font-size: 20px;
+font-weight: 600;
+color: #363738;
+padding-bottom: 16px;
+}
+.lorem{
+    font-family: "PT Sans",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #6B6B6C;
+padding-bottom: 32px;
+}
+strong{
+    font-family: "Exo 2",sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.6px;
+text-align: left;
+border-bottom: 3px solid #FFCE50;
+padding-bottom: 5px;
+
+}
+.container-2{
+    margin: 120px auto;
+    max-width: 1240px;
+    width: 100%;
+}
+.cards-2{
+    margin: 0 auto;
+    width: 1183px;
+    box-shadow: 3px 3px 15px #CCC;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.box-2{
+    padding: 32px 96px;
+    display: flex;
+    gap: 56px;
+}
+.ipsumm{
+    position: relative;
+    font-family: "PT Sans",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+padding-top:24px ;
+}
+
+/* container-3 */
+.container-3{
+   margin: 0px auto;
+    max-width: 1240px;
+    width: 100%; 
+}
+.boxes-3{
+    width: 1200px;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.boxx{
+    width: 234px;
+    text-align: center;
+}
+h6{
+    font-family: "Exo 2",sans-serif;
+font-size: 20px;
+font-weight: 600;
+color: #363738;
+padding-top: 32px;
+padding-bottom:14px ;
+}
+.boxx-text{
+    font-family: "PT Sans",sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: #6B6B6C;
+}
