@@ -1,133 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>KARGO</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main">
-        <div class="container">
+      <div class="container">
+        <picture>
+          <source media="(max-width: 768px)" srcset="images/banner.png" />
+          <img
+            class="hero-imageee"
+            src="images/hero-image.svg"
+            alt="Track image"
+          />
+        </picture>
+
+        <h2>Выполненные работы</h2>
+        <p class="sobral">
+          Мы собрали информацию по грузам, которые мы уже доставили. У нас
+          специальный подход к каждому виду товаров.
+        </p>
+        <div class="cards">
+          <div class="box">
             <picture>
-                <source media="(min-width: 768px)" src="images/banner=-tablet.png">
-                <img src="images/hero-image.svg" alt="">
+              
+              <source
+                media="(max-width:375px)"
+                srcset="images/Rectangle-3333.png"
+              />
+              <source
+                media="(max-width:768px)"
+                srcset="images/tablet-truck-1.png"
+              />
+              <img src="images/Rectangle-1.png" alt="truck-image" />
             </picture>
-            <h2>Выполненные работы</h2>
-            <p class="sobral">Мы собрали информацию по грузам, которые мы уже доставили. У нас специальный подход к каждому виду товаров.</p>
-            <div class="cards">
-                <div class="box">
-                    <div class="truck-image"><img src="images/Rectangle-1.png" alt=""></div>
-                    <div class="card-text">
-                        <h4>Станки и оборудование</h4>
-                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
-                        <strong>20 000 руб.</strong>
-                    </div>
-                </div>
-                 <div class="box">
-                    <div class="truck-image"><img src="images/Rectangle-2.png" alt=""></div>
-                    <div class="card-text">
-                        <h4>Компоненты и запчасти</h4>
-                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
-                        <strong>18 000 руб.</strong>
-                    </div>
-                </div>
-                 <div class="box">
-                    <div class="truck-image"><img src="images/Rectangle-3.png" alt=""></div>
-                    <div class="card-text">
-                        <h4>Станки и оборудование</h4>
-                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
-                        <strong>20 000 руб.</strong>
-                    </div>
-                </div>
+            <div class="card-text">
+              <h4>Станки и оборудование</h4>
+              <p class="lorem">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+              <strong>20 000 руб.</strong>
             </div>
+          </div>
+          <div class="box box-34">
+            <picture>
+              <source
+                media="(max-width:768px)"
+                srcset="images/tablet-truck-2.png"
+              />
+              <img src="images/Rectangle-2.png" alt="" />
+            </picture>
+            <div class="card-text">
+              <h4>Компоненты и запчасти</h4>
+              <p class="lorem">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+              <strong>18 000 руб.</strong>
+            </div>
+          </div>
+          <div class="box box-33">
+            <div class="truck-image truck-image-3">
+              <img src="images/Rectangle-3.png" alt="" />
+            </div>
+            <div class="card-text">
+              <h4>Станки и оборудование</h4>
+              <p class="lorem">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+              <strong>20 000 руб.</strong>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="container-2">
-        <h2>Этапы поставки </h2>
-        <div class="cards-2">
-            <div class="box-2">
-                <img src="images/Rectangle-shake.png" alt="shaking image">
-                <div class="box-2-text">
-                    <h4>Предложение от продавца</h4>
-                    <img src="images/yellow-line.png" alt="">
-                    <p class="ipsumm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis urna cursus eget nunc scelerisque viverra mauris in. </p>
-                </div>
+    <div class="container">
+      <h2>Этапы поставки</h2>
+      <div class="cards-2">
+        <div class="box-2">
+          <div class="rec">
+            <img src="images/Rectangle-shake.png" alt="shaking image" />
+          </div>
+          <div class="box-2-text">
+            <h4>Предложение от продавца</h4>
+            <div class="yellow">
+              <img src="images/yellow-line.png" alt="" />
             </div>
+            <p class="ipsumm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <span class="elit">
+                Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in
+                cursus turpis massa tincidunt. Venenatis urna cursus eget nunc
+                scelerisque viverra mauris in.</span
+              >
+            </p>
+          </div>
         </div>
-        <div class="cards-2">
-            <div class="box-2">
-                <img src="images/Rectangle-ship.png" alt="shaking image">
-                <div class="box-2-text">
-                    <h4>Доставка</h4>
-                    <img src="images/yellow-line.png" alt="">
-                    <p class="ipsumm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis urna cursus eget nunc scelerisque viverra mauris in. </p>
-                </div>
+      </div>
+      <div class="cards-2">
+        <div class="box-2">
+          <div class="rec">
+            <img src="images/Rectangle-ship.png" alt="shaking image" />
+          </div>
+          <div class="box-2-text">
+            <h4>Доставка</h4>
+            <div class="yellow">
+              <img src="images/yellow-line.png" alt="" />
             </div>
+            <p class="ipsumm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <span class="elit">
+                Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in
+                cursus turpis massa tincidunt. Venenatis urna cursus eget nunc
+                scelerisque viverra mauris in.</span
+              >
+            </p>
+          </div>
         </div>
-        <div class="cards-2">
-            <div class="box-2">
-                <img src="images/Rectangle-human.png" alt="shaking image">
-                <div class="box-2-text">
-                    <h4>Установка у клиента</h4>
-                    <img src="images/yellow-line.png" alt="">
-                    <p class="ipsumm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis urna cursus eget nunc scelerisque viverra mauris in. </p>
-                </div>
+      </div>
+      <div class="cards-2">
+        <div class="box-2">
+          <div class="rec">
+            <img src="images/Rectangle-human.png" alt="shaking image" />
+          </div>
+          <div class="box-2-text">
+            <h4>Установка у клиента</h4>
+            <div class="yellow">
+              <img src="images/yellow-line.png" alt="" />
             </div>
+            <p class="ipsumm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <span class="elit">
+                Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in
+                cursus turpis massa tincidunt. Venenatis urna cursus eget nunc
+                scelerisque viverra mauris in.</span
+              >
+            </p>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="container-3">
-        <h2>Нам доверяют</h2>
-        <div class="boxes-3">
-            <div class="boxx">
-                <img src="images/rostam.svg" alt="">
-                <h6>Росатом</h6>
-                <p class="boxx-text">Корпорация атомной энергии</p>
-            </div>
-            <img src="images/lineee.svg" alt="">
-            <div class="boxx">
-                <img src="images/gazprom.svg" alt="">
-                <h6>Газпром</h6>
-                <p class="boxx-text">Корпорация атомной энергии</p>
-            </div>
-            <img src="images/lineee.svg" alt="">
-            <div class="boxx">
-                <img src="images/rosneft.svg" alt="">
-                <h6>Роснефть</h6>
-                <p class="boxx-text">Корпорация атомной энергии</p>
-            </div>
-            <img src="images/lineee.svg" alt="">
-            <div class="boxx">
-                <img src="images/cosmos.svg" alt="">
-                <h6>Роскосмос</h6>
-                <p class="boxx-text">Корпорация атомной энергии</p>
-            </div>
-            <div class="boxx">
-                <img src="images/lukoyl.svg" alt="">
-                <h6>Лукойл</h6>
-                <p class="boxx-text">Корпорация атомной энергии</p>
-            </div>
-            <img src="images/lineee.svg" alt="">
-            <div class="boxx">
-                <img src="images/inter.svg" alt="">
-                <h6>Интер РАО</h6>
-                <p class="boxx-text">Корпорация атомной энергии</p>
-            </div>
-            <img src="images/lineee.svg" alt="">
-            <div class="boxx">
-                <img src="images/rostex.svg" alt="">
-                <h6>Ростех</h6>
-                <p class="boxx-text">Корпорация атомной энергии</p>
-            </div>
-            <img src="images/lineee.svg" alt="">
-            <div class="boxx">
-                <img src="images/BTB.svg" alt="">
-                <h6>Банк ВТБ
-                    
-                </h6>
-                <p class="boxx-text">Корпорация атомной энергии</p>
-            </div>
+    <div class="container">
+      <h2>Нам доверяют</h2>
+      <div class="boxes-3">
+        <div class="boxx">
+          <img src="images/rostam.svg" alt="" />
+          <h6>Росатом</h6>
+          <p class="boxx-text">Корпорация атомной энергии</p>
         </div>
+        <img class="liness" src="images/lineee.svg" alt="" />
+        <div class="boxx">
+          <img src="images/gazprom.svg" alt="" />
+          <h6>Газпром</h6>
+          <p class="boxx-text">Корпорация атомной энергии</p>
+        </div>
+        <img class="liness" src="images/lineee.svg" alt="" />
+        <div class="boxx">
+          <img src="images/rosneft.svg" alt="" />
+          <h6>Роснефть</h6>
+          <p class="boxx-text">Корпорация атомной энергии</p>
+        </div>
+        <img class="liness" src="images/lineee.svg" alt="" />
+        <div class="boxx">
+          <img src="images/cosmos.svg" alt="" />
+          <h6>Роскосмос</h6>
+          <p class="boxx-text">Корпорация атомной энергии</p>
+        </div>
+        <div class="boxx boxx-2">
+          <img src="images/lukoyl.svg" alt="" />
+          <h6>Лукойл</h6>
+          <p class="boxx-text">Корпорация атомной энергии</p>
+        </div>
+        <img class="liness" src="images/lineee.svg" alt="" />
+        <div class="boxx boxx-2">
+          <img src="images/inter.svg" alt="" />
+          <h6>Интер РАО</h6>
+          <p class="boxx-text">Корпорация атомной энергии</p>
+        </div>
+        <img class="liness" src="images/lineee.svg" alt="" />
+        <div class="boxx boxx-2">
+          <img src="images/rostex.svg" alt="" />
+          <h6>Ростех</h6>
+          <p class="boxx-text">Корпорация атомной энергии</p>
+        </div>
+        <img class="liness" src="images/lineee.svg" alt="" />
+        <div class="boxx boxx-2">
+          <img src="images/BTB.svg" alt="" />
+          <h6>Банк ВТБ</h6>
+          <p class="boxx-text">Корпорация атомной энергии</p>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
